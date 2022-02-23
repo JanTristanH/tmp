@@ -41,6 +41,10 @@ stages:
 #    credentials:
 #      - alias: 'mySystemAlias'
 #        credentialId: 'mySystemCredentialsId'
+
+  Additional Unit Tests:
+      npmExecuteScripts: true
+
   Acceptance:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
