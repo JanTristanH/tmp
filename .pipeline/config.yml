@@ -13,6 +13,8 @@
 ### General project setup
 general:
   inferBuildTool: true
+  buildTool: 'npm'
+  gitSshKeyCredentialsId: 'ssh-gitlab-cred'
 
 ### Step-specific configuration
 steps:
