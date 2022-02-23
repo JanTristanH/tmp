@@ -11,10 +11,14 @@
   },
   "devDependencies": {
     "sqlite3": "^5.0.2",
-    "supertest": "^6.2.2"
+    "supertest": "^6.2.2",
+    "jest-junit": "^13.0.0"
   },
   "scripts": {
     "start": "cds run"
+  },
+  "jest":{
+    "testResultsProcessor": "jest-junit"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
