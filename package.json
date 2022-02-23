@@ -17,7 +17,7 @@
   "scripts": {
     "start": "cds run"
   },
-  "jest":{
+  "jest": {
     "testResultsProcessor": "jest-junit"
   },
   "eslintConfig": {
