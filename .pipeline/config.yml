@@ -14,6 +14,7 @@
 general:
   inferBuildTool: true
   buildTool: 'npm'
+  gitSshKeyCredentialsId: 'credentials-id-in-jenkins'
 
 ### Step-specific configuration
 steps:
