@@ -12,7 +12,6 @@
 
 ### General project setup
 general:
-  inferBuildTool: true
   buildTool: 'npm'
   gitSshKeyCredentialsId: 'credentials-id-in-jenkins'
 
