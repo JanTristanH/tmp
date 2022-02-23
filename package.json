@@ -1,48 +1,48 @@
 {
-  "name": "blubbi",
-  "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
-  "license": "UNLICENSED",
-  "private": true,
   "dependencies": {
     "@sap/cds": "^5",
     "express": "^4"
   },
+  "description": "A simple CAP project.",
   "devDependencies": {
+    "jest-junit": "^13.0.0",
     "sqlite3": "^5.0.2",
-    "supertest": "^6.2.2",
-    "jest-junit": "^13.0.0"
-  },
-  "scripts": {
-    "start": "cds run"
-  },
-  "jest": {
-    "testResultsProcessor": "jest-junit"
+    "supertest": "^6.2.2"
   },
   "eslintConfig": {
-    "extends": "eslint:recommended",
     "env": {
       "es2020": true,
-      "node": true,
       "jest": true,
-      "mocha": true
+      "mocha": true,
+      "node": true
     },
+    "extends": "eslint:recommended",
     "globals": {
-      "SELECT": true,
-      "INSERT": true,
-      "UPDATE": true,
-      "DELETE": true,
-      "CREATE": true,
-      "DROP": true,
       "CDL": true,
       "CQL": true,
+      "CREATE": true,
       "CXL": true,
+      "DELETE": true,
+      "DROP": true,
+      "INSERT": true,
+      "SELECT": true,
+      "UPDATE": true,
       "cds": true
     },
     "rules": {
       "no-console": "off",
       "require-atomic-updates": "off"
     }
-  }
+  },
+  "jest": {
+    "testResultsProcessor": "jest-junit"
+  },
+  "license": "UNLICENSED",
+  "name": "blubbi",
+  "private": true,
+  "repository": "\u003cAdd your repository here\u003e",
+  "scripts": {
+    "start": "cds run"
+  },
+  "version": "1.0.0-20220223143537+9876126ee640b00e03b0d69c4ae6a4648b24043f"
 }
